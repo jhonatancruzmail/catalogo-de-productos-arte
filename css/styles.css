@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header h1 {
+    text-align: center;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(42, 42, 42);
+
+}
+
+img {
+    width: 400px;
+}
