@@ -28,6 +28,7 @@ header {
     align-items: center;
     background: rgb(0, 0, 0);
     height: 6rem;
+    width: 100%;
     margin-bottom: 3rem;
 }
 
@@ -50,7 +51,7 @@ header h1 {
 img {
     padding: 10px;
     border-radius: 20px;
-    width: 400px;
+    width: 340px;
     transition: .2s;
 }
 
@@ -66,6 +67,7 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     background: black;
+    width: 100%;
 }
 
 .info {
@@ -92,7 +94,7 @@ footer .info .Items p {
 
 @media(max-width:886px) {
     footer {
-        padding: 2rem;
+        padding: 2rem 0;
     }
 
     .goUP {
@@ -107,5 +109,16 @@ footer .info .Items p {
 
     .Items {
         padding: 1rem 0;
+    }
+}
+
+@media(max-width:401px) {
+    .productos {
+        padding: 0.5rem 1rem;
+    }
+
+    img {
+        width: 100%;
+        padding: 0;
     }
 }
