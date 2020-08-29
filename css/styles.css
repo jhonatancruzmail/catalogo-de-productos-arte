@@ -15,7 +15,7 @@
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.822);
+    background-color: #000000d2;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -32,6 +32,7 @@ header {
 }
 
 header h1 {
+    text-align: center;
     color: white;
     text-transform: capitalize;
 }
